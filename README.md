@@ -46,4 +46,34 @@ A full-stack project built with:
 ---
 
 ## 📦 Project Structure
+project/
+│
+├── client/ # React frontend
+│ ├── src/
+│ │ ├── components/ # Layout, Header, Footer
+│ │ ├── pages/ # Home, Login, Register, Dashboard, About
+│ │ ├── hooks/ # useAuth hook
+│ │ ├── App.jsx
+│ │ ├── index.css # Tailwind imports
+│ │ └── main.jsx
+│ └── package.json
+│
+└── server/ # Express backend with SQLite
+├── server.js
+├── db.sqlite
+└── package.json
+
+---
+
+## 🚀 Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/kadir001/react-sqlite-homepage.git
+cd react-sqlite-homepage
+
+cd client
+npm install
+npm run dev
 
